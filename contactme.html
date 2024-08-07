@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+</head>
+<body>
+    <h1>Contact me Form</h1>
+    
+    <form action="/thankyou.html">
+
+        <label for="name">Username</label>
+        <input type="text" name="Username" id="name" placeholder="Enter your Username" value="name@dob"><br><br>
+
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" required="true" placeholder="Enter your Password"><br><br>
+
+        <label for="dob">Date of Birth</label>
+        <input type="date" name="dateofbirth" id="dob"><br><br>
+
+        <p>Language Known</p>
+
+        <label for="python">Pyhton</label>
+        <input type="radio" name="language" id="python" value="Python">
+
+        <label for="html">HTML</label>
+        <input type="radio" name="language" id="html" value="HTML">
+
+        <label for="java">Java</label>
+        <input type="radio" name="language" id="java" value="Java"><br><br>
+
+        <p>Fruits You Like</p>
+
+        <label for="mango">Mango</label>
+        <input type="checkbox" name="fruits" id="mango" value="Mango">
+
+        <label for="apple">Apple</label>
+        <input type="checkbox" name="fruits" id="apple" value="Apple">    
+        
+        <label for="kivi">Kivi</label>
+        <input type="checkbox" name="fruits" id="kivi" value="Kivi"><br><br>
+
+        <label for="counrty">Tell Your Country :</label>
+        <select name="Country" id="country">
+            <option value="India">India</option>
+            <option value="USA">USA</option>
+            <option value="Canada">Canada</option>
+            <option value="Germany">Germany</option>
+            <option value="Other">Other</option>
+        </select><br><br>
+
+        <p>Tell us About Your Self : </p>
+        <textarea name="story" id="" cols="30" rows="10" placeholder="Tell Your Story">
+            Write Your Story 
+        </textarea><br><br>
+
+        <!-- <label for="reset">Reset</label> -->
+        <input type="reset" value="Reset">
+
+        <!-- <label for="submit">Submit</label> -->
+        <input type="submit" value="Submit">
+
+    </form>
+
+</body>
+</html>
