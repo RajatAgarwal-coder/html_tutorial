@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LEVEL5</title>
+</head>
+<body>
+
+    <p>Ordered List</p>                         <!-- Here Order of item matter-->
+    <ol type="A">
+        <li><HTML></li>
+        <ol type="i">
+            <li>Setup & Check</li>
+            <li>Basic</li>
+        </ol>
+        <li>C++</li>
+        <li>Java</li>
+        <li>C</li>
+    </ol><hr>
+
+    <p>Unordered List</p>                         <!-- Here Order of item not matter-->
+    <ul>
+        <li>Cycling</li>
+        <li>Cricket</li>
+        <li>YouTube</li>
+    </ul><hr>
+
+    <table border="3">
+
+        <caption>Technologies</caption>                     <!-- Use to describe table(Center Aligned)-->
+
+        <tr>
+            <th colspan="3">Tech I am Good at</th>
+        </tr>
+
+        <tr>
+            <th>Language</th>
+            <th>Competency</th>
+            <th>Years</th>
+        </tr>
+ 
+        <tr>
+            <td>Python</td>
+            <td>10/10</td>
+            <td>2 Years</td>
+        </tr>
+
+        <tr>
+            <td>Java</td>
+            <td>8/10</td>
+            <td>1 Years</td>
+        </tr>
+
+        <tr>
+            <td colspan="3">Its Colspan merge 3 Column</td>
+        </tr>
+    </table><hr>
+
+    <form action="/urlwhereitstoredata.php" method="post">
+        Username : <input type="text" placeholder="It will be inside the field"><br>
+        Password : <input type="password" required = "true"><br>
+        <input type="submit"><br>
+
+        <input type="text" name="IDfordata" value="Initial Value"><br><br>
+
+                 <!-- Use of Syemantic Elements -->
+        <label for="username">Username :</label>     <!-- Used for Proper Label-->
+        <input type="text" id="username" placeholder="It will be inside the field"><br>
+        <label for="user_password">Password:</label>
+        <input type="password" id="user_password">
+    </form>
+
+    <form action="/contact.me">
+        Date : <input type="date"><br>
+        File : <input type="file"><br>
+        Color : <input type="color"><br>
+        Price Range : <input type="range"><br>
+        Button : <input type="button" value="submit"><br>
+        Submit : <input type="submit">          <!-- Special Button -->    
+    </form><br>
+
+    Choose Your Gender <br>
+
+    <form>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value="Male"> <!-- value goes to backend-->
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" value="Female"> 
+        <label for="other">Other</label>
+        <input type="radio" id="other" name="gender" value="Other">
+    </form><br>
+
+    Choose Your Language <br>
+
+    <form>
+        <label for="python">Python</label>
+        <input type="checkbox" name="lang" id="python" value="Python"><br>
+        <label for="html">HTML</label>
+        <input type="checkbox" name="lang" id="html" value="HTML"><br>
+        <label for="java">Java</label>
+        <input type="checkbox" name="lang" id="java" value="java"><br>
+    </form><br>
+
+    <form>
+        <label for="country">Select Your country</label>
+        <select name="country" id="country">
+            <option value="India">India</option>
+            <option value="US">US</option>
+            <option value="UK">UK</option>
+            <option value="Other">Other</option>
+        </select>
+    </form><br>
+
+    <form>
+        <textarea name="story" id="story" cols="40" rows="4" placeholder="Valueable Story">
+            Please Write a story
+        </textarea>
+    </form><br>
+
+    <iframe src="https://www.wikipedia.org/" width="300" height="400"></iframe> <!--use to embeded webpage-->
+
+</body>
+</html>
